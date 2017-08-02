@@ -53,6 +53,11 @@
 	  </dependency>
 	  <!-- Spring核心依赖 end -->
 	  <!-- spring 持久层依赖start -->
+	  <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId><!-- 封装了spring对于事物的控制 -->
+			<version>${spring.version}</version>
+	   </dependency>
 	   <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-tx</artifactId><!-- 封装了spring对于事物的控制 -->
@@ -254,6 +259,12 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+	  <version>${spring.version}</version>
       <scope>test</scope>
     </dependency>
     <!-- 单元测试框架 end -->

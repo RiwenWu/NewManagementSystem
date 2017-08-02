@@ -7,4 +7,18 @@
   </parent>
   <artifactId>NewManagementSystem-back</artifactId>
   <packaging>war</packaging>
+  
+  <dependencies>
+      <dependency>
+			<groupId>com.wrw.newmanagementsystem.common</groupId>
+			<artifactId>NewManagementSystem-common</artifactId>
+			<version>${NewManagementSystem.version}</version>
+	  </dependency>
+      <dependency>
+			<groupId>com.wrw.newmanagementsystem.org</groupId>
+			<artifactId>NewManagementSystem-org</artifactId>
+			<version>${NewManagementSystem.version}</version>
+	  </dependency>
+  </dependencies>
+  
 </project>
