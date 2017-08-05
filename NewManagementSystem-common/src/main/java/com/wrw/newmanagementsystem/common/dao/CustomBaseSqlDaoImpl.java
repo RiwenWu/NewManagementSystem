@@ -14,12 +14,14 @@ import javax.persistence.Query;
 import org.hibernate.SQLQuery;
 import org.hibernate.criterion.CriteriaSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.stereotype.Repository;
 
 import com.wrw.newmanagementsystem.common.entity.PageModel;
 
 public class CustomBaseSqlDaoImpl {
 
+	@PersistenceContext
 	@Autowired
 	private EntityManager em;
 	
