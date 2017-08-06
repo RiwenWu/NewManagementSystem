@@ -6,7 +6,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>登录 - ${title }</title>
+<title>登录 - ${ title }</title>
 </head>
 
 <script type="text/javascript">
