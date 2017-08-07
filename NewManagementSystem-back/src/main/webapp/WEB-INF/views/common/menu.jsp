@@ -6,10 +6,12 @@
             <%-- <a href="javascript:;">
                 <img src="${ctx }/static/images/logo.png" />
             </a> --%>
-            <span style="color: #fff;font-size: 21px;">天梯管理系统</span>
+            <span style="color: #fff;font-size: 21px;">这是左侧菜单title</span>
         </div>
+        
         <div class="n_user">
             <div class="u_left">
+            	<!-- 可以自定义头像 -->
                 <img src="${ctx }/static/images/default_face.jpg" />
             </div>
             <div class="u_right">
@@ -62,6 +64,7 @@
         
     </div>
     
+<!-- 监听当前哪个class=“l_item”正在活动（被点击），class被改为“l_item current” -->   
 <script type="text/javascript">
 
 $(function(){

@@ -27,7 +27,7 @@
 	<description>Spring公共配置 </description>
 	
 	<!-- 使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入 -->
-	<context:component-scan base-package="com.wrw.newmanagesystem"/>
+	<context:component-scan base-package="com.wrw.newmanagementsystem"/>
 
 	<!-- Jpa Entity Manager 配置 -->
 	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"> 
@@ -35,7 +35,7 @@
 		<property name="jpaVendorAdapter" ref="hibernateJpaVendorAdapter"/>
 		<property name="packagesToScan">
 			<list>
-				<value>com.wrw.newmanagesystem</value>
+				<value>com.wrw.newmanagementsystem</value>
 				<!-- <value>com.vision.edu</value> -->
 			</list>
 		</property>
@@ -72,7 +72,7 @@
 	</bean>
 
 	<!-- Spring Data Jpa配置 -->
- 	<jpa:repositories base-package="com.wrw.newmanagesystem"  transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
+ 	<jpa:repositories base-package="com.wrw.newmanagementsystem"  transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
    
 	<!-- Jpa 事务配置 -->
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">

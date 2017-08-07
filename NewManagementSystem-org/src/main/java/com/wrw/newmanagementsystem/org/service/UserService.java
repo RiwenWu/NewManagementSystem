@@ -15,7 +15,7 @@ import com.wrw.newmanagementsystem.org.dto.UserQueryDTO;
 import com.wrw.newmanagementsystem.org.entity.Resource;
 import com.wrw.newmanagementsystem.org.entity.User;
 
-@Service
+@Service("userService")
 public class UserService extends CommonService<User,String>{
 
 	@Autowired

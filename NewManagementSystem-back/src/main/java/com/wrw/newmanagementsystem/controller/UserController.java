@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.controller;
+package com.wrw.newmanagementsystem.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -30,10 +30,10 @@ import com.wrw.newmanagementsystem.org.entity.User;
 import com.wrw.newmanagementsystem.org.service.ResourceService;
 import com.wrw.newmanagementsystem.org.service.RoleService;
 import com.wrw.newmanagementsystem.org.service.UserService;
+import com.wrw.newmanagementsystem.util.Constants;
 import com.wrw.newmanagementsystem.util.ExcelUtils;
 import com.wrw.newmanagementsystem.util.Md5Util;
-import com.wrw.newmanagesystem.util.Constants;
-import com.wrw.newmanagesystem.util.WebHelper;
+import com.wrw.newmanagementsystem.util.WebHelper;
 
 
 /**

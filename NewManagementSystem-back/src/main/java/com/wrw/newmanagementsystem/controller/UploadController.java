@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.controller;
+package com.wrw.newmanagementsystem.controller;
 
 import java.io.File;
 import java.io.PrintWriter;

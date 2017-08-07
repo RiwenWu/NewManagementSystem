@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.controller;
+package com.wrw.newmanagementsystem.controller;
 
 import java.util.List;
 
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.wrw.newmanagementsystem.org.entity.Resource;
 import com.wrw.newmanagementsystem.util.Md5Util;
-import com.wrw.newmanagesystem.util.WebHelper;
+import com.wrw.newmanagementsystem.util.WebHelper;
 
 @Controller
 public class LoginController {
@@ -26,18 +26,19 @@ public class LoginController {
 		return "login";
 	}
 	
-	@RequestMapping("do_login")
+	@RequestMapping("/do_login")
 	public String doLogin(HttpServletRequest request, Model model) {
 		
 		String username = request.getParameter("username");
 		String pwd = request.getParameter("pwd");
 		
-		boolean remember = false;
+		boolean rememberMe = false;
 		
 		String md5Pwd = Md5Util.generatePassword(pwd);
+
 	
 		try {
-			UsernamePasswordToken token = new UsernamePasswordToken();
+			UsernamePasswordToken token = new UsernamePasswordToken(username, md5Pwd, rememberMe);
 			
 			Subject subject = SecurityUtils.getSubject();
 			

@@ -12,16 +12,17 @@ import javax.annotation.Resource;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.wrw.newmanagementsystem.org.entity.User;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:applicationContext.xml")
+@ContextConfiguration("classpath:myapplicationContext.xml")
 public class testUserService {
 
-	@Resource
+	@Autowired(required=true)
 	private UserService userService;
 	
 	@Test

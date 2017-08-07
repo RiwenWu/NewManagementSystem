@@ -50,7 +50,7 @@ $(function(){
 	                <div class="m_txt">
 	                	<c:choose>
 	                		<c:when test="${not empty msg }">${msg }</c:when>
-	                		<c:otherwise>天梯管理系统</c:otherwise>
+	                		<c:otherwise>这是表单标题</c:otherwise>
 	                	</c:choose>
 	                </div>
 	                <div class="m_input">

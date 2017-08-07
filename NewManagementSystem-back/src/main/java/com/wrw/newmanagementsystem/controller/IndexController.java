@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.controller;
+package com.wrw.newmanagementsystem.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

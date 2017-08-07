@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.shiro;
+package com.wrw.newmanagementsystem.shiro;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -27,7 +27,7 @@ import com.wrw.newmanagementsystem.org.entity.Role;
 import com.wrw.newmanagementsystem.org.entity.User;
 import com.wrw.newmanagementsystem.org.service.ResourceService;
 import com.wrw.newmanagementsystem.org.service.UserService;
-import com.wrw.newmanagesystem.util.WebHelper;
+import com.wrw.newmanagementsystem.util.WebHelper;
 
 
 public class ShiroDBRealm extends AuthorizingRealm{
@@ -76,6 +76,7 @@ public class ShiroDBRealm extends AuthorizingRealm{
 		}
 		
 		User user = userService.findUserByName(token.getUsername());
+		
 		if(user != null) {
 			
 			if(user.getStatus() == User.STATUS_NO) {

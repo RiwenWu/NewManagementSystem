@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.util;
+package com.wrw.newmanagementsystem.util;
 
 import javax.servlet.http.HttpServletRequest;
 

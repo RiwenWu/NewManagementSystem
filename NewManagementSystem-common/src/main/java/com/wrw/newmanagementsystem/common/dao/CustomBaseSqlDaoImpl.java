@@ -21,7 +21,7 @@ import com.wrw.newmanagementsystem.common.entity.PageModel;
 
 public class CustomBaseSqlDaoImpl {
 
-	@PersistenceContext
+	//@PersistenceContext
 	@Autowired
 	private EntityManager em;
 	

@@ -1,4 +1,4 @@
-package com.wrw.newmanagesystem.shiro;
+package com.wrw.newmanagementsystem.shiro;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;

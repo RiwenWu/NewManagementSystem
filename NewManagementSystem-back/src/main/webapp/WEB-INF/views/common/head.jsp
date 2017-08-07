@@ -22,7 +22,14 @@
         <div class="h_right">
          <div class="r_menu">
                 <div class="m_item">
-                    <div class="i_default"><a href="javascript:;"><i class="icon user"></i><span>${sessionScope.session_login_user.realName }</span><i class="icon down"></i></a></div>
+                    <div class="i_default">
+                    	<a href="javascript:;">
+	                    	<i class="icon user"></i>
+	                    	<span>${sessionScope.session_login_user.realName }</span>
+	                    	<i class="icon down"></i>
+                    	</a>
+                    </div>
+                    <!-- 点击下面出现的div -->
                     <div class="i_menu">
                         <div data-ui="profile" class="J_profile">
                             <div class="p_user">
