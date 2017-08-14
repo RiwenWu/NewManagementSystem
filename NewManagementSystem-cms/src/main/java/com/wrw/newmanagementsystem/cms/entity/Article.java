@@ -1,4 +1,4 @@
-package com.wrw.newmangementsystem.cms.entity;
+package com.wrw.newmanagementsystem.cms.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

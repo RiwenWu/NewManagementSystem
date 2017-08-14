@@ -21,6 +21,11 @@
 	  </dependency>
 	  
 	  <dependency>
+			<groupId>com.wrw.newmanagementsystem.cms</groupId>
+			<artifactId>NewManagementSystem-cms</artifactId>
+			<version>${NewManagementSystem.version}</version>
+	  </dependency>  
+	  <dependency>
 		    <groupId>org.json</groupId>
 		    <artifactId>json</artifactId>
 		    <version>20160810</version>

@@ -44,6 +44,7 @@ import com.wrw.newmanagementsystem.util.WebHelper;
 @Controller
 @RequestMapping("/user")
 public class UserController {
+	
 	@Autowired
 	private ResourceService resourceService;
 	

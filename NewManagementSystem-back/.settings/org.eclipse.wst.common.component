@@ -11,6 +11,9 @@
         <dependent-module archiveName="NewManagementSystem-org-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/NewManagementSystem-org/NewManagementSystem-org">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="NewManagementSystem-cms-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/NewManagementSystem-cms/NewManagementSystem-cms">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="NewManagementSystem-back"/>
         <property name="java-output-path" value="/NewManagementSystem-back/target/classes"/>
     </wb-module>

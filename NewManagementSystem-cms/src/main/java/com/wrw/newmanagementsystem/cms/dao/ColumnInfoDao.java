@@ -1,7 +1,7 @@
-package com.wrw.newmangementsystem.cms.dao;
+package com.wrw.newmanagementsystem.cms.dao;
 
+import com.wrw.newmanagementsystem.cms.entity.ColumnInfo;
 import com.wrw.newmanagementsystem.common.dao.CommonDao;
-import com.wrw.newmangementsystem.cms.entity.ColumnInfo;
 
 public interface ColumnInfoDao extends ColumnInfoDaoCustom,CommonDao<ColumnInfo,String>{
 

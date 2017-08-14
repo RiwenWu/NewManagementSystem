@@ -1,12 +1,12 @@
-package com.wrw.newmangementsystem.cms.dao;
+package com.wrw.newmanagementsystem.cms.dao;
 
 import java.util.List;
 import java.util.Map;
 
+import com.wrw.newmanagementsystem.cms.dto.ArticleQueryDTO;
+import com.wrw.newmanagementsystem.cms.dto.CurrentArticleInfoDTO;
+import com.wrw.newmanagementsystem.cms.entity.Article;
 import com.wrw.newmanagementsystem.common.entity.PageModel;
-import com.wrw.newmangementsystem.cms.dto.ArticleQueryDTO;
-import com.wrw.newmangementsystem.cms.dto.CurrentArticleInfoDTO;
-import com.wrw.newmangementsystem.cms.entity.Article;
 
 public interface ArticleDaoCustom {
 

@@ -1,4 +1,4 @@
-package com.wrw.newmangementsystem.cms.dto;
+package com.wrw.newmanagementsystem.cms.dto;
 
 import java.util.Date;
 
